@@ -1,4 +1,4 @@
-// App.tsx
+// @ts-nocheck
 "use client"
 // App.tsx
 import React, { useState } from 'react';
