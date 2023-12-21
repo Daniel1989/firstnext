@@ -8,7 +8,6 @@ const openai = new OpenAI({
   baseURL: process.env.OPENAI_API_BASE
 });
 
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
 
 
 // IMPORTANT! Set the runtime to edge: https://vercel.com/docs/functions/edge-functions/edge-runtime
@@ -56,6 +55,7 @@ export async function POST(req: Request): Promise<Response> {
   const stream = OpenAIStream(response);
 
   // google
+  // const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
   // const model = genAI.getGenerativeModel({ model: "gemini-pro" });
   // const result = await model.generateContent(prompt);
   // const response = result.response;
