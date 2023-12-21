@@ -25,6 +25,7 @@ const objectA = {
   };
 
   objectA.contacts.forEach((contact, index) => {
+    // @ts-ignore
     fieldMappings2[`contacts[${index}].value`] = `list[${index}].title`;
   });
   
