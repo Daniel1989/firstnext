@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import Link from 'next/link'
+
 
 import { Metadata } from 'next'
  
@@ -7,6 +9,8 @@ export const metadata: Metadata = {
 }
 export default function Home() {
   return (
-    <h1>Hello</h1>
+    <>
+      <Link href="/dashboard">Dashboard</Link>
+    </>
   )
 }

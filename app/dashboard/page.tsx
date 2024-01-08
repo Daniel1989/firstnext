@@ -1,5 +1,6 @@
 // `app/dashboard/page.tsx` is the UI for the `/dashboard` URL
-import { Metadata } from 'next'
+import { Suspense } from 'react';
+import { Metadata,  } from 'next'
 import Tree from './tree/Tree';
 export const metadata: Metadata = {
     title: 'dashboard',
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
   };
 
 export default function Page() {
-    return (<div>
+    return (<section>
       <Tree  source={sourceData} target={targetData} ></Tree>
-    </div>)
+    </section>)
   }
