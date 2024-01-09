@@ -34,3 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## 概念
+1. next用的是目录规约
+2. layout最外面，用于布局，page代表真正的内容组件， template在两者之间，用于useEffect的场景
+3. next默认是服务端组件
+4. 规约下，每个目录可以有default，loading，error，[...catchAll]
+5. 理论上只需要app下面的layout即可
+6. [slug]用于动态目录
+7. @xx 并行路由要求里面的目录和外面的目录匹配

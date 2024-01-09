@@ -1,5 +1,3 @@
-// `app/dashboard/page.tsx` is the UI for the `/dashboard` URL
-import { Suspense } from 'react';
 import { Metadata,  } from 'next'
 import Tree from './tree/Tree';
 export const metadata: Metadata = {
