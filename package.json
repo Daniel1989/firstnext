@@ -11,6 +11,7 @@
   "dependencies": {
     "@vercel/blob": "^0.16.1",
     "ai": "^2.2.29",
+    "antd": "^5.12.8",
     "lodash": "^4.17.21",
     "next": "14.0.4",
     "novel": "^0.1.22",

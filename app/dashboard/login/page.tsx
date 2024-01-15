@@ -1,9 +1,10 @@
  
+import Link from 'next/link'
 
 export default function Login() {
   return (
     <div>
-      login outter
+      <Link href={'/blog/2'}>blog modal</Link>
     </div>
   )
 }
