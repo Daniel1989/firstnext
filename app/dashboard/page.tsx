@@ -30,6 +30,6 @@ export const metadata: Metadata = {
 
 export default function Page() {
     return (<section>
-      <Tree  source={sourceData} target={targetData} ></Tree>
+      <div>root content</div>
     </section>)
   }
