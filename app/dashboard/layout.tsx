@@ -1,5 +1,6 @@
 'use client'
 import { useSelectedLayoutSegment } from 'next/navigation'
+import styles from './styles.module.css'
 
 export default function DashboardLayout({
     children, // will be a page or nested layout
@@ -11,7 +12,7 @@ export default function DashboardLayout({
     const loginSegments = useSelectedLayoutSegment('auth')
     console.log(loginSegments)
     return (
-      <section>
+      <section className={styles.dashboard}>
         {/* Include shared UI here e.g. a header or sidebar */}
         {children}
         {auth}
