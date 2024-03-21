@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tiptap/extension-bold": "^2.2.4",
+    "@tiptap/extension-document": "^2.2.4",
+    "@tiptap/extension-paragraph": "^2.2.4",
+    "@tiptap/extension-text": "^2.2.4",
+    "@tiptap/html": "^2.2.4",
     "@vercel/blob": "^0.16.1",
     "ai": "^2.2.29",
     "antd": "^5.12.8",
